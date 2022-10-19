@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Admin Dashboard</title>
 </head>
 
@@ -13,22 +16,23 @@
     <div class="container">
         <header>
             <nav>
-                <div class="heading"><img src="./icons/view-dashboard.svg" height="30px" width="30px">
+                <div class="heading"><img src="./icons/view-dashboard.svg" height="37px" width="37px">
                     <h1>Dashboard</h1>
                 </div>
 
                 <ul>
-                    <li><img src="./icons/home.svg" height="24px" width="24px"> Home</li>
-                    <li><img src="./icons/account-box.svg" height="24px" width="24px"> Profile</li>
-                    <li><img src="./icons/message-reply.svg" height="24px" width="24px"> Messages</li>
-                    <li><img src="./icons/clock-time-three.svg" height="24px" width="24px"> History</li>
-                    <li><img src="./icons/file-multiple.svg" height="24px" width="24px"> Tasks</li>
-                    <li><img src="./icons/account-group.svg" height="24px" width="24px"> Communities</li>
+                    <li><a href="#"><img src="./icons/home.svg" height="24px" width="24px"> Home</a></li>
+                    <li><a href="#"><img src="./icons/account-box.svg" height="24px" width="24px"> Profile</a></li>
+                    <li><a href="#"><img src="./icons/message-reply.svg" height="24px" width="24px"> Messages</a></li>
+                    <li><a href="#"><img src="./icons/clock-time-three.svg" height="24px" width="24px"> History</a></li>
+                    <li><a href="#"><img src="./icons/file-multiple.svg" height="24px" width="24px"> Tasks</a></li>
+                    <li><a href="#"><img src="./icons/account-group.svg" height="24px" width="24px"> Communities</a>
+                    </li>
                 </ul>
                 <ul>
-                    <li><img src="./icons/cog.svg" height="24px" width="24px"> Settings</li>
-                    <li><img src="./icons/help-box.svg" height="24px" width="24px"> Support</li>
-                    <li><img src="./icons/shield-check.svg" height="24px" width="24px"> Privacy</li>
+                    <li><a href="#"><img src="./icons/cog.svg" height="24px" width="24px"> Settings</a></li>
+                    <li><a href="#"><img src="./icons/help-box.svg" height="24px" width="24px"> Support</a></li>
+                    <li><a href="#"><img src="./icons/shield-check.svg" height="24px" width="24px"> Privacy</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,19 +44,19 @@
                 </div>
                 <div class="notify">
                     <img src="./icons/bell-ring-outline.svg" alt="" height="24px" width="24px">
-                    <p>Morgan Oakley</p>
+                    <p class="bold">Morgan Oakley</p>
                 </div>
                 <div class="greeting">
-                    <p>Hi there,</p>
-                    <p>Morgan Oakley</p>
+                    <p class="bold">Hi there,</p>
+                    <p class="bold">Morgan Oakley</p>
                 </div>
-                <ul class="project-nav">
-                    <li>
-                        <button>New</button>
-                    </li>
-                    <li><button>Upload</button></li>
-                    <li><button>Share</button></li>
-                </ul>
+                <div class="project-nav">
+
+                    <button>New</button>
+
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
             </section>
             <section class="projects">
                 <div>
@@ -62,10 +66,10 @@
                             <h3>Super cool project</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, totam repellendus natus
                                 maxime tenetur doloremque tempora fugiat.</p>
-                            <div class="project-social"><img src="./icons/star-plus-outline.svg" alt="" height="16px"
-                                    width="16px"><img src="./icons/eye-plus-outline.svg" alt="" height="16px"
-                                    width="16px"><img src="./icons/share-variant-outline.svg" alt="" height="16px"
-                                    width="16px"></div>
+                            <div class="project-social"><img src="./icons/star-plus-outline.svg" alt="" height="20px"
+                                    width="20px"><img src="./icons/eye-plus-outline.svg" alt="" height="20px"
+                                    width="20px"><img src="./icons/share-variant-outline.svg" alt="" height="20px"
+                                    width="20px"></div>
                         </div>
                         <div class="project-card">
                             <h3>Less cool project</h3>
@@ -73,10 +77,10 @@
                                 at iure. Ab, excepturi error laborum, eveniet magni molestiae at aliquid iste maiores
                                 dolore deserunt illo?
                             </p>
-                            <div class="project-social"><img src="./icons/star-plus-outline.svg" alt="" height="16px"
-                                    width="16px"><img src="./icons/eye-plus-outline.svg" alt="" height="16px"
-                                    width="16px"><img src="./icons/share-variant-outline.svg" alt="" height="16px"
-                                    width="16px"></div>
+                            <div class="project-social"><img src="./icons/star-plus-outline.svg" alt="" height="20px"
+                                    width="20px"><img src="./icons/eye-plus-outline.svg" alt="" height="20px"
+                                    width="20px"><img src="./icons/share-variant-outline.svg" alt="" height="20px"
+                                    width="20px"></div>
                         </div>
 
 
@@ -85,10 +89,10 @@
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae ex voluptatibus
                                 facilis modi optio dolor delectus accusamus necessitatibus, vero eaque possimus quasi
                                 voluptate eligendi. Omnis delectus consequatur earum consequuntur enim?</p>
-                            <div class="project-social"><img src="./icons/star-plus-outline.svg" alt="" height="16px"
-                                    width="16px"><img src="./icons/eye-plus-outline.svg" alt="" height="16px"
-                                    width="16px"><img src="./icons/share-variant-outline.svg" alt="" height="16px"
-                                    width="16px"></div>
+                            <div class="project-social"><img src="./icons/star-plus-outline.svg" alt="" height="20px"
+                                    width="20px"><img src="./icons/eye-plus-outline.svg" alt="" height="20px"
+                                    width="20px"><img src="./icons/share-variant-outline.svg" alt="" height="20px"
+                                    width="20px"></div>
                         </div>
 
 
@@ -97,10 +101,10 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero officiis voluptatum
                                 cumque sunt ipsum sit, doloribus odit commodi saepe dolores praesentium veritatis
                                 quisquam itaque voluptates molestiae dolor temporibus vitae numquam.</p>
-                            <div class="project-social"><img src="./icons/star-plus-outline.svg" alt="" height="16px"
-                                    width="16px"><img src="./icons/eye-plus-outline.svg" alt="" height="16px"
-                                    width="16px"><img src="./icons/share-variant-outline.svg" alt="" height="16px"
-                                    width="16px"></div>
+                            <div class="project-social"><img src="./icons/star-plus-outline.svg" alt="" height="20px"
+                                    width="20px"><img src="./icons/eye-plus-outline.svg" alt="" height="20px"
+                                    width="20px"><img src="./icons/share-variant-outline.svg" alt="" height="20px"
+                                    width="20px"></div>
                         </div>
 
 
@@ -109,10 +113,10 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt natus fugit eligendi
                                 illum consequuntur, tempora consectetur inventore. Natus culpa pariatur magni, labore
                                 delectus eius, velit neque ad non nobis minima?</p>
-                            <div class="project-social"><img src="./icons/star-plus-outline.svg" alt="" height="16px"
-                                    width="16px"><img src="./icons/eye-plus-outline.svg" alt="" height="16px"
-                                    width="16px"><img src="./icons/share-variant-outline.svg" alt="" height="16px"
-                                    width="16px"></div>
+                            <div class="project-social"><img src="./icons/star-plus-outline.svg" alt="" height="20px"
+                                    width="20px"><img src="./icons/eye-plus-outline.svg" alt="" height="20px"
+                                    width="20px"><img src="./icons/share-variant-outline.svg" alt="" height="20px"
+                                    width="20px"></div>
                         </div>
 
 
@@ -121,10 +125,10 @@
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus necessitatibus
                                 consectetur debitis sequi nulla. Nemo omnis veniam rem, dolores architecto explicabo
                                 temporibus enim dolore cum corporis amet similique. Magni, aut?</p>
-                            <div class="project-social"><img src="./icons/star-plus-outline.svg" alt="" height="16px"
-                                    width="16px"><img src="./icons/eye-plus-outline.svg" alt="" height="16px"
-                                    width="16px"><img src="./icons/share-variant-outline.svg" alt="" height="16px"
-                                    width="16px"></div>
+                            <div class="project-social"><img src="./icons/star-plus-outline.svg" alt="" height="20px"
+                                    width="20px"><img src="./icons/eye-plus-outline.svg" alt="" height="20px"
+                                    width="20px"><img src="./icons/share-variant-outline.svg" alt="" height="20px"
+                                    width="20px"></div>
                         </div>
                     </div>
 
@@ -134,12 +138,12 @@
                     <h3>Announcements</h3>
                     <div class="announcements">
 
-                        <div class="announcement-msg">
+                        <div class="announcement-msg border">
                             <h4>Site Maintenance</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ad, autem odio
                                 voluptates...</p>
                         </div>
-                        <div class="announcement-msg">
+                        <div class="announcement-msg border">
                             <h4>Community Share Day</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad explicabo at porro
                                 minima,
@@ -156,19 +160,19 @@
                     <div class="trending">
 
                         <div class="trending-item">
-                            <p>@tegan</p>
+                            <p class="bold">@tegan</p>
                             <p>World Peace Builder</p>
                         </div>
                         <div class="trending-item">
-                            <p>@morgan</p>
+                            <p class="bold">@morgan</p>
                             <p>Super Cool Project</p>
                         </div>
                         <div class="trending-item">
-                            <p>@kendall</p>
+                            <p class="bold">@kendall</p>
                             <p>Life Changing App</p>
                         </div>
                         <div class="trending-item">
-                            <p>@alex</p>
+                            <p class="bold">@alex</p>
                             <p>No Traffick Maker</p>
                         </div>
                     </div>
